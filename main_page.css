@@ -1,0 +1,112 @@
+
+
+  .tab ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(134, 170, 232);
+  }
+  
+  .tab li {
+    float: left;
+
+ 
+    /* margin: 10px; */
+  }
+  
+  .tab li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+ 
+  }
+  
+  
+  .tab li a:hover {
+    background-color: #111;
+opacity: 0.5;
+  }
+    #find{
+
+color: rgb(52, 52, 53);
+background-color: rgb(103, 146, 231);
+padding: 12px;
+  }  
+  #input{
+   
+    padding: 14px 16px;
+  
+  }
+  .tab{
+    margin: 0%;
+    padding: 0%;
+  }
+  .main_area{
+   text-align: center;
+   height: 59vh;
+ 
+    margin: 0%;
+    padding: 0%;
+
+  }
+  .time{
+    margin-top: 200px;
+    padding: 0%;
+font-size: 40px;
+justify-content: center;
+   border: 2px solid #555;
+   box-shadow: 8px 8px 8px 8px rgba(10, 10, 10, 0.2);
+   width: 800px;
+   margin-left: 23%;
+   background-color: rgb(214, 208, 208);
+  }
+  .footer{
+    padding: 0%;
+    margin: 0%;
+  }
+ 
+ .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(134, 170, 232)
+  }
+  
+  .footer li {
+    float: left;
+    margin-left: 230px;
+ 
+  }
+  .footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* background-color: rgb(156, 150, 150); */
+  }
+
+  .footer li a:hover {
+    background-color: #111;
+opacity: 0.5;
+  }
+  .text h2 a{
+    text-decoration: none;
+    color: #111;
+  }
+  #ind_text{
+color: #555;
+   width: 200px;
+margin-left: 43%;
+margin-top: 40px;
+  border: 2px solid #555;
+  background-color: rgb(140, 169, 237);
+  }
+  body{
+    background-color: rgb(208, 204, 204);
+  }

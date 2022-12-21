@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>world tab</title>
+  <link rel="stylesheet" href="worldclock2.css">
+  
+  <style>
+  .card1 {
+display: inline-block;
+/* background-color: rgb(74, 127, 189); */
+height: 150px;
+  box-shadow: 8px 8px 8px 8px rgba(10, 10, 10, 0.2);
+  border: 2px solid #555;
+  background-color: rgb(215, 212, 212);
+  width: 315px;
+margin: 13px;
+  text-align: center;
+  font-family: arial;
+  margin: 20px;
+  margin-top: 40px;
+} 
+.span{
+  padding: 5px;
+    font-size: 40px;
+    
+}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="tab">
+  <ul>
+    <li><a href="main_page.html">Home</a></li>
+    <li><a href="worldclock.html">world-map</a></li>
+    <li><a href="stopwatch.html">stop-watch</a></li>
+    <li><a href="worldclock2.html">world-clock</a></li>
+    <li style="float:right"><a  href="#" id="find"><button onclick="search()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 14">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
+    </button></a></li>
+    <li style="float:right"><input type="text" id="input1" placeholder="search your time zone"></li>
+  </ul>
+</div>
+<div class="main_area">
+  <div class="card1">
+    <h3><u>UNITED STATE OF AMERICA</u></h3>
+    <span id="time_countries">loadind time..</span>
+     
+    <a href="https://www.timeanddate.com/time/zone/usa"> <p><button id="know_more">know more..</button></p></a>
+    </div>
+    <div class="card1">
+      <h3><u>INDIA</u></h3>
+      <span id="time_countries1">loadind time..</span>
+       
+      <a href="https://www.timeanddate.com/time/zone/india"> <p><button id="know_more1">know more..</button></p></a>
+      </div>
+      <div class="card1">
+        <h3><u>CHINA</u></h3>
+        <span id="time_countries2">loadind time..</span>
+         
+        <a href="https://www.timeanddate.com/time/zone/china"> <p><button id="know_more2">know more..</button></p></a>
+        </div>
+        <div class="card1">
+          <h3><u>BANGLADESH</u></h3>
+          <span id="time_countries3">loadind time..</span>
+           
+          <a href="https://www.timeanddate.com/time/zone/bangladesh"> <p><button id="know_more3">know more..</button></p></a>
+          </div>
+          <div class="card1">
+            <h3><u>DUBAI</u></h3>
+            <span id="time_countries4">loadind time..</span>
+             
+            <a href="https://www.timeanddate.com/time/zone/united-arab-emirates/dubai-emirate"> <p><button id="know_more4">know more..</button></p></a>
+            </div>
+            <div class="card1">
+              <h3><u>AFGHANISTHAN</u></h3>
+              <span id="time_countries5">loadind time..</span>
+               
+              <a href="https://www.timeanddate.com/time/zone/afghanistan"> <p><button id="know_more5">know more..</button></p></a>
+              </div>
+              <div class="card1">
+                <h3><u>RUSSIA</u></h3>
+                <span id="time_countries6">loadind time..</span>
+                 
+                <a href="https://www.timeanddate.com/time/zone/russia"> <p><button id="know_more6">know more..</button></p></a>
+                </div>
+                <div class="card1">
+                  <h3><u>ENGLAND</u></h3>
+                  <span id="time_countries7">loadind time..</span>
+                   
+                  <a href="https://www.timeanddate.com/time/zone/uk/england"> <p><button id="know_more7">know more..</button></p></a>
+                  </div>
+                  <div class="card1">
+                    <h3><u>QATAR</u></h3>
+                    <span id="time_countries8">loadind time..</span>
+                     
+                    <a href="https://www.timeanddate.com/time/zone/qatar"> <p><button id="know_more8">know more..</button></p></a>
+                    </div>
+                    <div class="card1">
+                      <h3><u>SOUTH AFRICA</u></h3>
+                      <span id="time_countries9">loadind time..</span>
+                       
+                      <a href="https://www.timeanddate.com/time/zone/south-africa"> <p><button id="know_more9">know more..</button></p></a>
+                      </div>
+                      <div class="card1">
+                        <h3><u>NEPAL</u></h3>
+                        <span id="time_countries10">loadind time..</span>
+                         
+                        <a href="https://www.timeanddate.com/time/zone/nepal"> <p><button id="know_more10">know more..</button></p></a>
+                        </div>
+                        <div class="card1">
+                          <h3><u>SPAIN</u></h3>
+                          <span id="time_countries11">loadind time..</span>
+                           
+                          <a href="https://www.timeanddate.com/time/zone/spain"> <p><button id="know_more11">know more..</button></p></a>
+                          </div>
+  
+</div>
+<div class="footer">
+  <ul>
+  <li><a href="#">facebook</a></li>
+  <li><a href="#">whatsapp</a></li>
+  <li><a href="#">twiter</a></li>
+  <li><a href="#">contact</a></li>
+  </ul>
+</div>
+</div>
+<script src="worldclock2.js"></script>
+</body>
+</html>

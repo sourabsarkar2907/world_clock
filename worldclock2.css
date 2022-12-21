@@ -1,0 +1,83 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+  .tab ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(134, 170, 232);
+  }
+  
+  .tab li {
+    float: left;
+
+ 
+    /* margin: 10px; */
+  }
+  
+  .tab li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .tab li a:hover {
+    background-color: #111;
+opacity: 0.5;
+  }
+    #find{
+
+color: rgb(173, 172, 174);
+background-color: rgb(134, 170, 232);
+padding: 12px;
+  }  
+  #input1{
+   
+    padding: 14px 16px;
+  
+  }
+  .tab{
+    margin: 0%;
+    padding: 0%;
+  }
+  /* .main_area{
+   text-align: center;
+   height: 59vh;
+ 
+    margin: 0%;
+    padding: 0%;
+
+  } */
+ 
+  .footer{
+    padding: 0%;
+    margin: 0%;
+  }
+ 
+ .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(134, 170, 232);
+  }
+  
+  .footer li {
+    float: left;
+    margin-left: 230px;
+ 
+  }
+  .footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* background-color: rgb(156, 150, 150); */
+  }

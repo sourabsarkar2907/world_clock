@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>world tab</title>
+  <link rel="stylesheet" href="main_page.css">
+</head>
+<body>
+<div class="container">
+  <div class="tab">
+  <ul>
+    <li><a href="main_page.html">Home</a></li>
+    <li><a href="worldclock.html">world-map</a></li>
+    <li><a href="stopwatch.html">stop-watch</a></li>
+    <li><a href="worldclock2.html">world-clock</a></li>
+    <li style="float:right"><a href="#" id="find"><button onclick="search()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 14">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
+    </button></a></li>
+    <li style="float:right"><input type="text" id="input" placeholder="search your time zone"></li>
+  </ul>
+</div>
+<div class="main_area">
+<div class="time">
+<h1 id="new_time">00 00 00</h1>
+</div>
+<div class="text">
+  <h2 id="ind_text"><a href="https://www.bing.com/search?q=india+time&qs=n&form=QBRE&sp=-1&ghc=1&pq=india+time&sc=10-10&sk=&cvid=684D763DA521404ABAD56BB59FC74880&ghsh=0&ghacc=0&ghpl="> KOLKATA INDIA</a></h2> 
+</div>
+</div>
+<div class="footer">
+  <ul>
+  <li><a href="#">facebook</a></li>
+  <li><a href="#">whatsapp</a></li>
+  <li><a href="#">twiter</a></li>
+  <li><a href="#">contact</a></li>
+  </ul>
+</div>
+</div>
+<script src="main_page.js"></script>
+</body>
+</html>
